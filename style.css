@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital@0;1&display=swap');
+
+*{
+    color: aliceblue;
+    font-family: sans-serif, 'Montserrat','Roboto', sans-serif;
+    
+    
+  
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 0px 16px;
+    height: 86px;
+    align-items: center;
+
+}
+img{
+    height: 80px;
+    width: 156px;
+}
+.first{
+      background-image: url(Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.inlate{
+    margin: 0px 12px 0px 0px;
+    padding: 3px;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+
+}
+
+button{
+    padding: 4px 16px;
+    background: #E50914;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+}
+.middle-class{
+    padding: 94px 100px 0px;
+    margin: 16px 0px 0px;
+    display: block;
+}
+h2{
+    font-size: 20px;
+    height: 30px;
+}
+.box{
+    font-size: 24px;
+    height: 28px;
+}
+.start-flow {
+  display: grid;
+  background: linear-gradient(333.08deg, #000235 29.2%, #010F42 71.93%, #E40913 111.25%);
+  border-radius: 10px;
+  text-align: center;
+  padding: 54px;
+  position: relative;
+  top:30px;
+  left: 20px;
+  right: 20px;
+}
+.flow {
+    background-color: rgb(0 8 29);
+}
+.show{
+    display: flex;
+    flex-direction: row;
+    padding: 12px 100px;
+}
+p.heading {
+    height: 68px;
+    font-size: 48px ;
+    font-weight: 900;
+
+}
+p.set{
+    font-size:20px ;
+    height: 46px;
+    font-weight: 500;
+}
+
+.delight{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.show > img {
+    height: 396px;
+    width: 528px;
+
+}
+.box{
+    width: 1053px;
+    height: 84px ;
+    border: 1px;
+    margin: 20px;
+    background-color:rgb(19 33 68);
+    text-justify: center;
+    
+}
